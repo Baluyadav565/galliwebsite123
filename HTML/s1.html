@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/89dc3ca4e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+      integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni"
+      crossorigin="anonymous"
+    />
+    <title>Website</title>
+  </head>
+
+  <body>
+    <!-- Naigation start -->
+    <div class="bar">
+      <div class="back" onclick="nav2()">Back></div>
+      <div class="line"></div>
+      <ul>
+        <li><a href="#"> Home</a></li>
+        <li><a href="#"> Categories</a></li>
+        <li><a href="#"> Brand</a></li>
+        <li><a href="#"> Shop</a></li>
+        <li><a href="#"> Card items</a></li>
+      </ul>
+    </div>
+    <!-- Naigation end -->
+
+    <!-- herder start -->
+    <div class="header">
+      <div class="inside_header">
+        <div class="logo">
+          <a href="../HTML/index.html">
+          <img src="../images/Logo3.png" alt="Logo" />
+        </a>
+        </div>
+        <!-- <div> -->
+        <div class="navbar nav shop" onclick="nav()">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <!-- <form action="">
+          <input
+            type="text"
+            id="text"
+            class="shop"
+            placeholder="Serach a Product"
+          />
+          <div class="search_icon shop">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+        </form>
+        <div class="cart shop">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+    <!-- herder end -->
+
+    <div class="shopDetails">
+      <img src="../images/shop1.jpg" />
+      <div class="insideshopDetails">
+        <h2>One Store Supermarket</h2>
+        <p>Madhapur</p>
+      </div>
+    </div>
+
+    <div class="product_division">
+      <div class="filter">
+        <a href="#" class="filter_btn active" data-filter="all">All</a>
+        <a href="#" class="filter_btn" data-filter="covid_essentials"
+          >Covid Essentials</a
+        >
+        <a href="#" class="filter_btn" data-filter="milk">Milk</a>
+        <a href="#" class="filter_btn" data-filter="breakfast">Breakfast</a>
+        <a href="#" class="filter_btn" data-filter="ghee">Ghee</a>
+        <a href="#" class="filter_btn" data-filter="shampoo">Shampoo</a>
+        <a href="#" class="filter_btn" data-filter="conditioner">conditioner</a>
+        <a href="#" class="filter_btn" data-filter="watches">Watches</a>
+        <a href="#" class="filter_btn" data-filter="daal">Daal</a>
+        <a href="#" class="filter_btn" data-filter="shampoo">Shampoo</a>
+        <a href="#" class="filter_btn" data-filter="conditioner">conditioner</a>
+        <a href="#" class="filter_btn" data-filter="watches">Watches</a>
+        <a href="#" class="filter_btn" data-filter="daal">Daal</a>
+        <a href="#" class="filter_btn" data-filter="daal">Daal</a>
+        <a href="#" class="filter_btn" data-filter="daal">Daal</a>
+        <a href="#" class="filter_btn" data-filter="daal">Daal</a>
+        <a href="#" class="filter_btn" data-filter="daal">Daal</a>
+      </div>
+      <div class="prod">
+        <div class="prod_head" id="head">ALL</div>
+        <div class="prodn covid_essentials">
+          <img src="../images/dettol.jpg" />
+          <div class="prodn_details">
+            <h5>Dettol Hand Wash</h5>
+            <p>200 ML</p>
+            <p class="amount">$ 2</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn covid_essentials">
+          <img src="../images/mask.jpg" />
+          <div class="prodn_details">
+            <h5>Disposal Mask</h5>
+            <p>pack of 100</p>
+            <p class="amount">$ 1</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn covid_essentials">
+          <img src="../images/sanitizer.jpg" />
+          <div class="prodn_details">
+            <h5>Hand Sanitizer</h5>
+            <p>500 ML</p>
+            <p class="amount">$ 5</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn milk">
+          <img src="../images/milk.jpg" />
+          <div class="prodn_details">
+            <h5>Milk</h5>
+            <p>Fresh milk of cow</p>
+            <p class="amount">$ 1/Litter</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn milk">
+          <img src="../images/milk_powder.jpg" />
+          <div class="prodn_details">
+            <h5>MIlk Powder Packet</h5>
+            <p>2 Kg</p>
+            <p class="amount">$ 3</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn breakfast">
+          <img src="../images/breakfast.jpg" />
+          <div class="prodn_details">
+            <h5>Pretzells</h5>
+            <p>500 gm</p>
+            <p class="amount">$ 3</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn breakfast">
+          <img src="../images/cheese_breakfast.jpg" />
+          <div class="prodn_details">
+            <h5>Cheese Breakfast</h5>
+            <p>500 gm</p>
+            <p class="amount">$ 10</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn breakfast">
+          <img src="../images/bread.jpg" />
+          <div class="prodn_details">
+            <h5>Fresh Bread</h5>
+            <p>100 gm</p>
+            <p class="amount">$ 1</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn ghee">
+          <img src="../images/ghee1.jpg" />
+          <div class="prodn_details">
+            <h5>Ghee</h5>
+            <p>100 gm</p>
+            <p class="amount">$ 10</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn ghee">
+          <img src="../images/ghee2.jpg" />
+          <div class="prodn_details">
+            <h5>Ghee</h5>
+            <p>500 gm</p>
+            <p class="amount">$ 50</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn shampoo">
+          <img src="../images/shampoo1.jpg" />
+          <div class="prodn_details">
+            <h5>Green Shampo</h5>
+            <p>100 ml</p>
+            <p class="amount">$ 2</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn shampoo">
+          <img src="../images/shampoo2.jpg" />
+          <div class="prodn_details">
+            <h5>Black Shampoo</h5>
+            <p>100 ml</p>
+            <p class="amount">$ 4</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn conditioner">
+          <img src="../images/conditioner1.png" />
+          <div class="prodn_details">
+            <h5>Elements Conditioner</h5>
+            <p>200 ml</p>
+            <p class="amount">$ 2</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn conditioner">
+          <img src="../images/conditioner2.jpg" />
+          <div class="prodn_details">
+            <h5>Haze conditioner</h5>
+            <p>200 ml</p>
+            <p class="amount">$ 3</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn watches">
+          <img src="../images/watch1.jpg" />
+          <div class="prodn_details">
+            <h5>Classic watch</h5>
+            <p>good lether watch</p>
+            <p class="amount">$ 15</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn watches">
+          <img src="../images/watch2.jpg" />
+          <div class="prodn_details">
+            <h5>Stylish Watch</h5>
+            <p>Good for a profesional job</p>
+            <p class="amount">$ 20</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn watches">
+          <img src="../images/watch3.jpg" />
+          <div class="prodn_details">
+            <h5>Golden watch</h5>
+            <p>watch cover made of gold</p>
+            <p class="amount">$ 1000</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn daal">
+          <img src="../images/daal1.jpg" />
+          <div class="prodn_details">
+            <h5>Dhruvan Daal</h5>
+            <p>Fresh daal packing</p>
+            <p class="amount">$ 10</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+        <div class="prodn daal">
+          <img src="../images/daal2.jpeg" />
+          <div class="prodn_details">
+            <h5>Sagar Daal</h5>
+            <p>Fresh daal packing</p>
+            <p class="amount">$ 10</p>
+          </div>
+          <div class="yt">
+            <a href="#"><img src="../images/youtube.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <i class="fa fa-headphones" aria-hidden="true"></i>
+      <p>if you have any question please call us</p>
+      <p id="num">123-456-7890</p>
+    </div>
+    <div class="foot">
+      <p>2020 - 21 Copy Right by test store</p>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="../JS/main.js"></script>
+    <!-- <script>
+		const btns = document.querySelectorAll(".filter_btn");
+		const storeProducts = document.querySelectorAll(".prodn");
+		let head = document.getElementsByClassName("prod_head");
+		for (i = 0; i < btns.length; i++) {
+			btns[i].addEventListener("click", (e) => {
+				e.preventDefault();
+				const filter = e.target.dataset.filter;
+				var x = e.target.innerText;
+				document.getElementById("head").innerText = x;
+				for (z = 0; z < btns.length; z++)
+					btns[z].classList.remove("active");
+
+				e.target.classList.add("active");
+				storeProducts.forEach((product) => {
+					if(filter == "all") {
+						product.style.display = "flex"
+					}else{
+						if(product.classList.contains(filter)) {
+							product.style.display = "flex"
+						}else{
+							product.style.display = "none"
+						}
+					}
+				})
+			})
+		}
+	</script> -->
+  </body>
+</html>
