@@ -589,14 +589,14 @@ hr {
   cursor: pointer;
 }
 .foot {
-  background-color: #444;
+  background-color: #007bff;
   padding: 10px 0;
   height: 50px;
   text-align: center;
 }
 .foot p {
-  font-size: 14px;
-  color: #999;
+  font-size: 20px;
+  color: #f8f9fa;
 }
 
 .shop_heading {
