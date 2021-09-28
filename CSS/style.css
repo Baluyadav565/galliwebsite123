@@ -5,8 +5,18 @@
 }
 body {
   width: 100%;
-  background: #f2f2f2;
-  overflow-x: hidden;
+ 
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red)
 }
 .bar {
   position: absolute;

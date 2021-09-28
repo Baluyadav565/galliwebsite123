@@ -5,12 +5,14 @@
 }
 
 body {
+  
   width: 100%;
-  /* background-image: url("images/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed; */
-  text-decoration: none;
+   
+ 
+  
+    background:   #ADFF2F;
+   
+    
 }
 .top-head {
   width: 100%;
