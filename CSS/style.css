@@ -285,22 +285,22 @@ body {
     url();
 }
 .shop_container .shopn {
-  width: 220px;
-  height: 190px;
+  width: 170px;
+  height: 130px;
   background: #b3d7ff;
   margin: 30px;
   border-radius: 4px;
   margin-top: 10px;
 }
 .shop_container .shopn img {
-  width: 170px;
-  height: 140px;
+  width: 120px;
+  height: 90px;
   margin: 10px 25px;
 }
 .shop_container .shopn p {
-  margin: 2px 24px;
+  margin: -3px 23px;
   color: #827676;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
 }
 .shop_container .shopn:hover p {
@@ -806,4 +806,76 @@ hr {
   left: 10%;
 
  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-holder {
+  width: 100%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2px;
+  justify-content: start;
+}
+.card-holder a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+.card-holder a:hover {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.card {
+  padding: 2px;
+  width: 100%;
+  border: 2px solid #000;
+}
+
+.card h4 {
+  text-align: center;
+  background-color: #0d6efd;
+  color: aliceblue;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.card p {
+  word-wrap: break-word;
+  color: black;
+      margin-bottom: 0rem;
+}
+
+.top-head {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-head .top-heading {
+  margin: 1% 2% 0%;
+  width: 150px;
+}
+.top-head .top-heading img {
+  width: 70px;
+  height: 70px;
+  border-radius: 0%;
+}
+.top-head .top-heading p {
+  width: 100%;
+      margin-bottom: 0rem;
+}
+.top-head a {
+  text-decoration: none;
 }
