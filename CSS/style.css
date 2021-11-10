@@ -830,7 +830,7 @@ hr {
 }
 .card-holder a {
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 2px;
 }
 .card-holder a:hover {
   border: 1px solid #000;
@@ -862,6 +862,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+
 }
 
 .top-head .top-heading {
