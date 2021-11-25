@@ -349,3 +349,17 @@ body {
 .video {
   text-align: left;
 }
+
+
+.top-head .top-heading001 {
+  margin: 1% 2% 0%;
+  width: 10px;
+  float: left;
+}
+
+.top-head .top-heading001 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 0%;
+  
+}
