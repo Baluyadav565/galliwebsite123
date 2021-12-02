@@ -601,7 +601,7 @@ hr {
 .foot {
   background-color: #007bff;
   padding: 10px 0;
-  height: 50px;
+  height: 31px;
   text-align: center;
 }
 .foot p {
@@ -812,14 +812,6 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
 .card-holder {
   width: 100%;
   /* border: 1px solid #000; */
@@ -840,7 +832,7 @@ hr {
   padding: 2px;
   width: 100%;
   border: 2px solid #000;
-  margin: 5px;
+  
 }
 
 .card h4 {
@@ -877,8 +869,8 @@ hr {
 }
 
 .top-head .top-heading001 img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border-radius: 0%;
   position:  absolute;
   margin-left: -40%;
@@ -899,3 +891,19 @@ hr {
 .top-head a {
   text-decoration: none;
 }
+
+
+.panel img{height: 40px; width: 40px;
+position: relative;
+padding: 5px;
+margin: 5
+px
+;
+
+}
+
+.socialrow{
+
+  margin-left: 20px;
+}
+
