@@ -280,14 +280,16 @@ body {
   padding-left: 0px;
   flex-wrap: wrap;
 }
+
+
 .shop_container .shopn:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url();
+  background-image: ; 
+
 }
 .shop_container .shopn {
   width: 170px;
   height: 130px;
-  background: #b3d7ff;
+  background: white;
   margin: 5px;
   border-radius: 4px;
   margin-top: 10px;
