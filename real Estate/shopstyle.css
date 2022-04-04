@@ -13,7 +13,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background: #ff00003b;
+    background: #28a74561;
 
     /*
     background-repeat:no-repeat;
@@ -84,7 +84,7 @@ body {
   color: #f5a42a;
 }
 .header {
-  background-color: #ff000061;
+  background-color: #28a745c2;
   height: 8vh;
   width: 100%;
   display: flex;
