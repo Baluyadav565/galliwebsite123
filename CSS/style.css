@@ -10,13 +10,18 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+   background: #2cb6df;
+
+     /* Comment
     background: #70bg32;
+
     background-repeat:no-repeat;
     background: -webkit-linear-gradient( to left top, blue, red);
     background: -moz-linear-gradient( to left top, blue, red);
     background: -ms-linear-gradient( to left top, blue, red);
     background: -o-linear-gradient( to left top, blue, red);
-    background: linear-gradient( to left top, blue, red)
+    background: linear-gradient( to left top, blue, red)  */
 }
 .bar {
   position: absolute;
