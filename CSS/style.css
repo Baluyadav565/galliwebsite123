@@ -72,7 +72,7 @@ body {
 }
 .header {
   background-color: #0083c1;
-  height: 12vh;
+  height: 8vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -876,6 +876,9 @@ hr {
   border-radius: 0%;
   position:  absolute;
   margin-left: -40%;
+
+      margin: auto;
+    margin-top: -21px;
 }
 
 .top-head .top-heading img {
