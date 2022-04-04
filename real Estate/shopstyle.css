@@ -82,8 +82,8 @@ body {
   color: #f5a42a;
 }
 .header {
-  background-color: #0083c1;
-  height: 12vh;
+  background-color: #ff000061;
+  height: 8vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -421,4 +421,7 @@ body {
     border-radius: 0%;
     position: absolute;
     margin-left: -40%;
+
+    margin: auto;
+    margin-top: -21px;
 }
