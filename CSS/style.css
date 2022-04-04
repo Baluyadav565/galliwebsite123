@@ -11,7 +11,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
 
-   background: #28a74561;
+   background: #ffa50075;
 
      /* Comment
     background: #70bg32;
@@ -76,7 +76,7 @@ body {
   color: #f5a42a;
 }
 .header {
-  background-color: #28a745c2;
+  background-color: #ffa500a1;
   height: 8vh;
   width: 100%;
   display: flex;
